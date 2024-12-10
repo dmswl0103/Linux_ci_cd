@@ -30,7 +30,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t dweblab/songdo .
+        run: docker build -t eunji113/inu .
 
       - name: Push docker image # 빌드된 이미지 push 
         run: docker push eunji113/inu:latest
