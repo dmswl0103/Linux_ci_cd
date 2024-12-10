@@ -33,4 +33,4 @@ jobs:
         run: docker build -t dweblab/songdo .
 
       - name: Push docker image # 빌드된 이미지 push 
-        run: docker push eunji113/inu:0.1
+        run: docker push eunji113/inu:latest
